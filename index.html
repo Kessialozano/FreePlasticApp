@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fibra Nativa Empaques, S.A. de C.V.: empaques, maquillaje y productos de limpieza sin plástico para reducir la exposición a microplásticos y disruptores endocrinos.">
+  <title>Fibra Nativa Empaques, S.A. de C.V.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="encabezado" id="inicio">
+    <div class="barra">
+      <a class="marca" href="#inicio">
+        <svg class="logo" viewBox="0 0 48 48" role="img" aria-label="Logotipo de Fibra Nativa Empaques">
+          <rect x="6" y="14" width="36" height="26" rx="2" fill="#d8b98c"/>
+          <path d="M6 22h36" stroke="#8a5a2b" stroke-width="2"/>
+          <rect x="18" y="28" width="12" height="7" fill="#f3e9d8"/>
+        </svg>
+        <span>Fibra Nativa</span>
+      </a>
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="portada">
+      <h1>Fibra Nativa Empaques, S.A. de C.V.</h1>
+      <p class="lema">Empaques, maquillaje y limpieza sin plástico, para reducir la exposición a microplásticos y disruptores endocrinos.</p>
+      <a class="boton" href="#contacto">Solicita información</a>
+    </div>
+  </header>
+
+  <div class="ondulado" aria-hidden="true"></div>
+
+  <main id="contenido" tabindex="-1">
+    <section id="nosotros" class="seccion" aria-labelledby="titulo-nosotros">
+      <h2 id="titulo-nosotros">Quiénes somos</h2>
+      <p class="intro">Somos una empresa mexicana que desarrolla empaques, maquillaje y productos de limpieza sin plástico para personas y negocios que quieren cuidar su salud y el medio ambiente.</p>
+      <div class="dos-columnas">
+        <div>
+          <h3>Misión</h3>
+          <p>Desarrollar empaques, maquillaje y productos de limpieza con materiales y fórmulas pensados para reducir la exposición de las personas a microplásticos y disruptores endocrinos.</p>
+          <h3>Visión</h3>
+          <p>Reducir la exposición a los microplásticos y a los disruptores endocrinos, sustancias que alteran el funcionamiento de las hormonas, en los hogares y los negocios de México y Latinoamérica.</p>
+        </div>
+        <div>
+          <h3>Productos y servicios</h3>
+          <ul class="productos">
+            <li>Empaques sin plástico: charolas de bagazo, cajas de cartón y protectores de fibra de agave</li>
+            <li>Maquillaje sin plástico, con envases de vidrio, metal y cartón</li>
+            <li>Productos de limpieza sin plástico, en concentrado y con recarga</li>
+            <li>Asesoría para que tu negocio deje el plástico de un solo uso</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="seccion" aria-labelledby="titulo-proyectos">
+      <h2 id="titulo-proyectos">Proyectos destacados</h2>
+      <div class="etiquetas">
+        <article class="etiqueta">
+          <h3>Empaques sin plástico</h3>
+          <p>Charolas de bagazo de caña, cajas de cartón reciclado y protectores de fibra de agave para restaurantes, tiendas en línea y marcas de consumo.</p>
+          <a href="#contacto">Solicitar información<span class="sr-only"> sobre empaques sin plástico</span></a>
+        </article>
+        <article class="etiqueta">
+          <h3>Maquillaje sin plástico</h3>
+          <p>Bases, polvos y labiales en envases de vidrio, metal y cartón, con opciones de recarga y fórmulas sin microplásticos añadidos.</p>
+          <a href="#contacto">Solicitar información<span class="sr-only"> sobre maquillaje sin plástico</span></a>
+        </article>
+        <article class="etiqueta">
+          <h3>Limpieza sin plástico</h3>
+          <p>Detergentes, jabones y limpiadores en concentrado que se diluyen en casa, así cada compra lleva menos plástico.</p>
+          <a href="#contacto">Solicitar información<span class="sr-only"> sobre limpieza sin plástico</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contacto</h2>
+      <p class="intro">¿Quieres empaques, maquillaje o productos de limpieza sin plástico? Cuéntanos qué necesitas y te respondemos en dos días hábiles.</p>
+
+      <form id="formulario-contacto" action="https://formsubmit.co/Kessia.lozano@outlook.com" method="POST">
+        <input type="hidden" name="_subject" value="Nueva solicitud desde la página web">
+
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" autocomplete="name" required minlength="2" aria-describedby="ayuda-nombre">
+          <small id="ayuda-nombre">Escribe tu nombre y apellido.</small>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" autocomplete="email" required aria-describedby="ayuda-correo">
+          <small id="ayuda-correo">Por ejemplo: nombre@empresa.com</small>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="6" required minlength="10" aria-describedby="ayuda-mensaje"></textarea>
+          <small id="ayuda-mensaje">Mínimo 10 caracteres. Incluye el producto y la cantidad aproximada.</small>
+        </div>
+
+        <button type="submit" class="boton">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <nav class="redes" aria-label="Redes sociales">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (se abre en otra pestaña)</span></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (se abre en otra pestaña)</span></a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (se abre en otra pestaña)</span></a>
+    </nav>
+    <p>&copy; 2026 Fibra Nativa Empaques, S.A. de C.V. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
